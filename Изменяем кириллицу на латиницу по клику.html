@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Изменяем кириллицу на латиницу по клику</title>
+</head>
+<body>
+<h4>Российская Федерация</h4>
+<p>Паспорт выдан: <span>Отделом...</span></p>
+<p1>Фамилия: <span>Патюков</span></p1><br>
+<p2>Имя: <span>Владислав</span></p2><br>
+<p3>Отчество: <span>Игоревич</span></p3><br>
+<p4>Год рождения: <span>2005</span></p4>
+<br>
+
+<script type='text/JavaScript'>
+     function verocultar(cual) {
+          var c=cual.nextSibling;
+          if(document.getElementsByTagName('span')[1].innerHTML=='Патюков') {
+               document.getElementsByTagName('span')[1].innerHTML='Patyukov';
+          } else {
+               document.getElementsByTagName('span')[1].innerHTML='Patyukov';
+          }
+
+          if(document.getElementsByTagName('span')[2].innerHTML=='Владислав') {
+               document.getElementsByTagName('span')[2].innerHTML='Vladislav';
+          } else {
+               document.getElementsByTagName('span')[2].innerHTML='Vladislav';
+          }
+          if(document.getElementsByTagName('span')[4].innerHTML=='2005') {
+               document.getElementsByTagName('span')[4].innerHTML='Two thousand and five';
+          } else {
+               document.getElementsByTagName('span')[4].innerHTML='Two thousand and five';
+          }
+
+     }
+</script><a onclick="return verocultar(this);"
+     href="javascript:void(0);">сменить язык</a>
+</body>
+
+</html>
+</head>
