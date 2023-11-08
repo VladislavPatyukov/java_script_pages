@@ -8,4 +8,4 @@ C:\Users\VladP\PycharmProjects\pythonProject\CV_Patyukov_Cite\index.html
 
 https://vladislavpatyukov.github.io/java_script_pages/
 
-https://vladislavpatyukov.github.io/java_script_pages/blob/main/siteDOM.html
+https://vladislavpatyukov.github.io/java_script_pages/siteDOM.html
