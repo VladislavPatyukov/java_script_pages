@@ -7,3 +7,5 @@
 C:\Users\VladP\PycharmProjects\pythonProject\CV_Patyukov_Cite\index.html
 
 https://vladislavpatyukov.github.io/java_script_pages/
+
+https://github.com/VladislavPatyukov/java_script_pages/blob/main/siteDOM.html
