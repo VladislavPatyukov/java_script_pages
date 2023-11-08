@@ -20,22 +20,30 @@
     }
      if (userInput %2==0)
     {
-        alert('У Вас верхнее место');
+        alert('У Вас ВЕРХНЕЕ место');
 
     }
     else
     {
-        alert('У Вас нижнее место');
+        alert('У Вас НИЖНЕЕ место');
     }
 
 
 </script>
 
 <form action="https://bing.com/">
-   <p><input name="номер места"></p>
+   <p><input name="номер места">Пожалуйста, введите номер Вашего места повторно</p>
+   <select name="класс">
+                <option>КУПЕ</option>
+                <option>БОКОВОЕ</option>
+   </select>
+   <select name="место">
+                <option>ВЕРХНЕЕ</option>
+                <option>НИЖНЕЕ</option>
+   </select>
    <p><input type="submit"></p>
 
-  </form>
+</form>
 
 <button onlick="function()">press</button>
 <a href="siteDOM.html">Назад</a>
